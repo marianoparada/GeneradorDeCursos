@@ -34,7 +34,7 @@ def main():
     st.title('Generador de Cursos asistido por I.A')
     # Entrada de texto para el nombre del curso
     idioma = st.selectbox("Selecciona el idioma", ["Español", "English","Portuguese","Italian","French"])
-    modelo = st.selectbox("Selecciona el modelo de lenguaje", ["gpt-4-0613", "gpt-3.5-turbo","gpt-4o","gpt-4-turbo"])
+    modelo = st.selectbox("Selecciona el modelo de lenguaje", ["gpt-4-0613", "gpt-3.5-turbo","gpt-4o","gpt-4-turbo", value="gpt-4o"])
     nombre = st.text_input("Escribe el nombre del curso:")
     # Entrada de texto para el público objetivo
     publico = st.text_input("¿A quién está dirigido este curso?")
