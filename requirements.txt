@@ -1,0 +1,13 @@
+plotly
+seaborn
+streamlit
+pandas
+wheel
+matplotlib
+openpyxl
+requests
+folium
+streamlit_folium
+matplotlib.colors
+streamlit_option_menu
+streamlit_js_eval
