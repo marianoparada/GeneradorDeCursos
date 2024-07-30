@@ -1,6 +1,5 @@
 plotly
 g4f
-g4f.Client
 python-docx
 seaborn
 streamlit
