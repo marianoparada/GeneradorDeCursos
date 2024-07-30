@@ -1,5 +1,4 @@
 import streamlit as st
-import g4f
 from g4f.client import Client
 from docx import Document
 import os
